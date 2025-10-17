@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+body {
+    font-family: "Oswald", "Song Myung", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 6px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5) {
+    width: 15%;         
+    height: auto;          
+    padding: 2px;
+    line-height: 0;
+}
+
+td img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;          
+    height: auto;      
+    max-width: 170px;  
+    object-fit: cover;
+}
+
+td:nth-child(9) {
+    width: 300px;
+}
+
+
+
+h1 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 14px;
+}
