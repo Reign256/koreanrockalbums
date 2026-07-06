@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
 
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 1300px;
+}
+
+.logo-grid img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+}
+
 body {
     font-family: "Oswald", "Song Myung", Arial, sans-serif;
     background-color: #ffffff;
@@ -63,19 +80,3 @@ p {
     font-size: 14px;
 }
 
-.logo-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    justify-items: center;
-    align-items: center;
-    margin: 30px auto;
-    max-width: 1300px;
-}
-
-.logo-grid img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    display: block;
-}
